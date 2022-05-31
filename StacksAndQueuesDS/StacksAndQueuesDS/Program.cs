@@ -7,7 +7,7 @@ namespace StacksAndQueuesDS
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            StackLinkedList stack = new StackLinkedList();
+            /*StackLinkedList stack = new StackLinkedList();
             stack.push(70);
             stack.push(30);
             stack.push(56);
@@ -15,7 +15,13 @@ namespace StacksAndQueuesDS
             stack.Peek();
             stack.Pop();
             stack.IsEmpty();
-            stack.Display();
+            stack.Display();*/
+            Console.WriteLine("...Queue Started...");
+            QueueLinkedList queue = new QueueLinkedList();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.DisPlay();
         }
     }
 }
