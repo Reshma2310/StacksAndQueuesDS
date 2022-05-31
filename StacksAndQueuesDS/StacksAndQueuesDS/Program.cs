@@ -21,7 +21,9 @@ namespace StacksAndQueuesDS
             queue.Enqueue(56);
             queue.Enqueue(30);
             queue.Enqueue(70);
-            queue.DisPlay();
+            queue.Display();
+            queue.Dequeue();
+            queue.Display();
         }
     }
 }
